@@ -35,3 +35,10 @@
 - FR5.2: System shall maintain complete submission history
 - FR5.3: System shall record reviewer information and review timestamp
 - FR5.4: System shall preserve all review notes
+
+## Non-Functional Requirements
+
+### NFR1: Performance
+- System shall load pages within 2 seconds on standard internet connection
+- API responses shall complete within 1 second
+- System shall support at least 50 concurrent users
