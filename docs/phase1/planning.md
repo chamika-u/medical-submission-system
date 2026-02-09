@@ -29,3 +29,11 @@ The current medical certificate submission and management process at Sabaragamuw
 - Integration with university's main student information system
 - Payment processing
 - Multi-language support
+
+## Assumptions
+- Users (students and medical officers) have basic computer literacy
+- Internet connectivity is available at university premises
+- Medical officers have authority to make decisions on submissions
+- Students have valid student IDs and university email addresses
+- Single university deployment (Sabaragamuwa University)
+
