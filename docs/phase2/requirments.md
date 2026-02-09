@@ -55,3 +55,8 @@
 - API endpoints shall require valid authentication
 - Role-based access control shall prevent unauthorized actions
 - SQL injection protection through parameterized queries
+
+### NFR4: Reliability
+- System shall be available 24/7 during academic sessions
+- Database shall ensure data integrity
+- System shall handle errors gracefully without crashes
