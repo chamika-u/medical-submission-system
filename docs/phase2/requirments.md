@@ -99,3 +99,22 @@
 9. System saves submission with status "pending"
 10. System displays success message
 11. System refreshes submission list
+
+**Alternative Flow:**
+- If validation fails, system shows error message
+
+### UC3: Review Medical Submission
+**Actor:** Medical Officer
+**Precondition:** Medical officer is logged in, submissions exist
+**Main Flow:**
+1. Medical officer views submissions list
+2. Medical officer clicks "Review" on a pending submission
+3. System displays submission details in modal
+4. Medical officer reviews medical information
+5. Medical officer selects decision (Approve/Reject/Hold)
+6. Medical officer optionally adds review notes
+7. Medical officer clicks "Submit Review"
+8. System updates submission status
+9. System records reviewer ID and timestamp
+10. System displays success message
+11. System refreshes submissions list and statistics
