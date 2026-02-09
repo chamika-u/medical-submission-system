@@ -42,3 +42,9 @@
 - System shall load pages within 2 seconds on standard internet connection
 - API responses shall complete within 1 second
 - System shall support at least 50 concurrent users
+
+### NFR2: Usability
+- Interface shall be intuitive requiring minimal training
+- System shall provide clear error messages
+- Dashboard shall display key information at a glance
+- Forms shall include helpful placeholder text
