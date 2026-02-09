@@ -11,3 +11,13 @@ The current medical certificate submission and management process at Sabaragamuw
 2. Provide medical officers with a centralized platform to review and manage submissions
 3. Enable real-time tracking of submission status and decisions
 4. Generate statistical reports on medical submissions
+
+## Scope
+### In Scope:
+- Student login and authentication
+- Medical certificate submission with date, type, and reason
+- Medical officer login and dashboard
+- Review and approval/rejection/hold functionality
+- Statistical reporting (total, pending, approved, rejected, on-hold)
+- Filter submissions by status and type
+- Secure authentication and role-based access control
