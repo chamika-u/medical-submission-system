@@ -37,3 +37,9 @@ The current medical certificate submission and management process at Sabaragamuw
 - Students have valid student IDs and university email addresses
 - Single university deployment (Sabaragamuwa University)
 
+## Constraints
+- Development time: 1 weeks
+- Team size: 3 members
+- Technology: Web-based system using Node.js 
+- Budget: No additional software licensing costs
+- Infrastructure: Must run on standard web server
