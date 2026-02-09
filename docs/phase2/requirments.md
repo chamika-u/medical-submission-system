@@ -60,3 +60,9 @@
 - System shall be available 24/7 during academic sessions
 - Database shall ensure data integrity
 - System shall handle errors gracefully without crashes
+
+### NFR5: Maintainability
+- Code shall follow consistent coding standards
+- Database schema shall be well-documented
+- API endpoints shall be clearly defined
+- System shall use modular architecture
