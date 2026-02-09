@@ -46,5 +46,5 @@ The current medical certificate submission and management process at Sabaragamuw
 
 ## Team Members
 - Chamika - System Design , Development & Project cordination
-- Lasindu - Requirements Analysis & Documentation
-- Sakun - Testing & Documentatio
+- Lasindu - System Planing & Documentation
+- Sakun - Requirments Analysis & Documentation
