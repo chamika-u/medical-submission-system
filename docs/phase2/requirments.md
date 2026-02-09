@@ -23,3 +23,9 @@
 - FR3.5: Medical officers shall be able to reject submissions
 - FR3.6: Medical officers shall be able to put submissions on hold
 - FR3.7: Medical officers shall be able to add review notes to decisions
+
+### FR4: Statistics and Reporting
+- FR4.1: System shall display total number of submissions
+- FR4.2: System shall show count by status (pending, approved, rejected, hold)
+- FR4.3: System shall show breakdown by medical type
+- FR4.4: Statistics shall update in real-time
