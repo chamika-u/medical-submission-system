@@ -1,4 +1,4 @@
-# System Architecture and API Design
+# System Architecture, API Design, and Security Design
 ## System Architecture
 
 ### Technology Stack
