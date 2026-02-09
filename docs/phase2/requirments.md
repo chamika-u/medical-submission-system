@@ -118,3 +118,17 @@
 9. System records reviewer ID and timestamp
 10. System displays success message
 11. System refreshes submissions list and statistics
+
+**Alternative Flow:**
+- Medical officer can cancel review without making changes
+
+### UC4: View Statistics
+**Actor:** Medical Officer
+**Precondition:** Medical officer is logged in
+**Main Flow:**
+1. Medical officer accesses dashboard
+2. System retrieves submission statistics
+3. System displays total submissions
+4. System displays count by status
+5. System displays count by type
+6. Statistics update when submissions are reviewed
