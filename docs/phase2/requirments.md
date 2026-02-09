@@ -132,3 +132,13 @@
 4. System displays count by status
 5. System displays count by type
 6. Statistics update when submissions are reviewed
+
+### UC5: Filter Submissions
+**Actor:** Medical Officer
+**Precondition:** Medical officer is logged in
+**Main Flow:**
+1. Medical officer selects status filter
+2. Medical officer optionally selects type filter
+3. System retrieves filtered submissions
+4. System displays filtered results
+5. Medical officer can clear filters to view all
