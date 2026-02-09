@@ -48,3 +48,10 @@
 - System shall provide clear error messages
 - Dashboard shall display key information at a glance
 - Forms shall include helpful placeholder text
+
+### NFR3: Security
+- All passwords shall be hashed using bcrypt
+- Authentication shall use JWT tokens
+- API endpoints shall require valid authentication
+- Role-based access control shall prevent unauthorized actions
+- SQL injection protection through parameterized queries
