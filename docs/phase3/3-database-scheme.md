@@ -32,3 +32,9 @@ CREATE TABLE medical_submissions (
   FOREIGN KEY (reviewed_by) REFERENCES users(id)
 )
 ```
+
+## Explanation:
+- The `users` table stores information about all users of the system, including their username, password, full name, email, role (student or medical officer), and an optional student ID for students. The `created_at` field automatically records when a user account is created.    
+
+- The `medical_submissions` table captures all details related to medical certificate submissions. It includes a foreign key `user_id` that references the `users` table to link each submission to a specific user. The `submission_date` records when the submission was made, while `medical_date`, `reason`, `medical_type`, and `description` capture the details of the medical issue. The `status` field tracks the current state of the submission, and the `reviewed_by` and `reviewed_at` fields log who reviewed the submission and when, along with any review notes.
+
