@@ -48,3 +48,97 @@
 - System shall provide clear error messages
 - Dashboard shall display key information at a glance
 - Forms shall include helpful placeholder text
+
+### NFR3: Security
+- All passwords shall be hashed using bcrypt
+- Authentication shall use JWT tokens
+- API endpoints shall require valid authentication
+- Role-based access control shall prevent unauthorized actions
+- SQL injection protection through parameterized queries
+
+### NFR4: Reliability
+- System shall be available 24/7 during academic sessions
+- Database shall ensure data integrity
+- System shall handle errors gracefully without crashes
+
+### NFR5: Maintainability
+- Code shall follow consistent coding standards
+- Database schema shall be well-documented
+- API endpoints shall be clearly defined
+- System shall use modular architecture
+
+## Use Cases
+
+### UC1: Student Login
+**Actor:** Student
+**Precondition:** Student has valid credentials
+**Main Flow:**
+1. Student navigates to login page
+2. System displays login form
+3. Student enters username and password
+4. Student clicks "Login"
+5. System validates credentials
+6. System generates JWT token
+7. System redirects to student dashboard
+
+**Alternative Flow:**
+- If credentials invalid, system shows error message
+
+### UC2: Submit Medical Certificate
+**Actor:** Student
+**Precondition:** Student is logged in
+**Main Flow:**
+1. Student clicks "Submit Medical Certificate"
+2. System displays submission form
+3. Student selects medical date
+4. Student selects medical type (Examination/Assessment/Other)
+5. Student enters reason
+6. Student optionally adds description
+7. Student clicks "Submit"
+8. System validates form data
+9. System saves submission with status "pending"
+10. System displays success message
+11. System refreshes submission list
+
+**Alternative Flow:**
+- If validation fails, system shows error message
+
+### UC3: Review Medical Submission
+**Actor:** Medical Officer
+**Precondition:** Medical officer is logged in, submissions exist
+**Main Flow:**
+1. Medical officer views submissions list
+2. Medical officer clicks "Review" on a pending submission
+3. System displays submission details in modal
+4. Medical officer reviews medical information
+5. Medical officer selects decision (Approve/Reject/Hold)
+6. Medical officer optionally adds review notes
+7. Medical officer clicks "Submit Review"
+8. System updates submission status
+9. System records reviewer ID and timestamp
+10. System displays success message
+11. System refreshes submissions list and statistics
+
+**Alternative Flow:**
+- Medical officer can cancel review without making changes
+
+### UC4: View Statistics
+**Actor:** Medical Officer
+**Precondition:** Medical officer is logged in
+**Main Flow:**
+1. Medical officer accesses dashboard
+2. System retrieves submission statistics
+3. System displays total submissions
+4. System displays count by status
+5. System displays count by type
+6. Statistics update when submissions are reviewed
+
+### UC5: Filter Submissions
+**Actor:** Medical Officer
+**Precondition:** Medical officer is logged in
+**Main Flow:**
+1. Medical officer selects status filter
+2. Medical officer optionally selects type filter
+3. System retrieves filtered submissions
+4. System displays filtered results
+5. Medical officer can clear filters to view all
