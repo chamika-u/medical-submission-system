@@ -80,3 +80,22 @@
 5. System validates credentials
 6. System generates JWT token
 7. System redirects to student dashboard
+
+**Alternative Flow:**
+- If credentials invalid, system shows error message
+
+### UC2: Submit Medical Certificate
+**Actor:** Student
+**Precondition:** Student is logged in
+**Main Flow:**
+1. Student clicks "Submit Medical Certificate"
+2. System displays submission form
+3. Student selects medical date
+4. Student selects medical type (Examination/Assessment/Other)
+5. Student enters reason
+6. Student optionally adds description
+7. Student clicks "Submit"
+8. System validates form data
+9. System saves submission with status "pending"
+10. System displays success message
+11. System refreshes submission list
