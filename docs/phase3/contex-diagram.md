@@ -60,7 +60,27 @@ Stats Request -->| 4.0                 |---> Statistics Report
                  |                     |
                  +---------------------+
 ```
+### Explanation:
 
+#### Processes:
+- **1.0 User Authentication**: Validates login credentials for both students and medical officers. Generates authentication tokens for secure session management.
+- **2.0 Submit Medical Certificate**: Allows students to upload and submit medical certificates with required information. Validates file format and stores submission details in the Medical_Submissions data store.
+- **3.0 Review Submission**: Enables medical officers to review submitted certificates, add comments, and update approval status (Approved, Rejected, or On Hold). Updates are logged in Medical_Submissions.
+- **4.0 Generate Statistics**: Compiles submission data into comprehensive reports showing submission rates, approval ratios, processing times, and status distributions for administrative analysis.
+
+#### Data Stores:
+- **D1: Users**: Stores user credentials, roles (Student/Medical Officer), and authentication profiles.
+- **D2: Medical_Submissions**: Maintains all submitted certificates, timestamps, review comments, approval status, and audit trails.
+
+#### External Entities:
+- **Students**: Users who submit medical certificates for approval.
+- **Medical Officers**: Users who review and approve/reject submissions.
+
+#### Data Flows:
+- Authentication tokens enable secure access to system functions.
+- Submission records flow to the data store for persistent storage and retrieval.
+- Updated statuses reflect review decisions and communicate outcomes to users.
+- Statistics reports provide administrative insights derived from submission data.
 
 
 
