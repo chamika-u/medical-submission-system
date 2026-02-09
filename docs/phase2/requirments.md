@@ -14,3 +14,12 @@
 - FR2.3: Students shall be able to add additional description to submissions
 - FR2.4: System shall record submission date and time automatically
 - FR2.5: Students shall be able to view their submission history
+
+### FR3: Submission Management (Medical Officer)
+- FR3.1: Medical officers shall view all medical submissions
+- FR3.2: System shall allow filtering by status (pending, approved, rejected, hold)
+- FR3.3: System shall allow filtering by medical type
+- FR3.4: Medical officers shall be able to approve submissions
+- FR3.5: Medical officers shall be able to reject submissions
+- FR3.6: Medical officers shall be able to put submissions on hold
+- FR3.7: Medical officers shall be able to add review notes to decisions
