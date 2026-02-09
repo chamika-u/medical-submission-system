@@ -13,3 +13,10 @@ This system enables students to submit medical certificates for absences (examin
 - Submit medical certificates with date, type, reason, and details
 - View submission history and status
 - Track review decisions and notes
+
+### For Medical Officers
+- Secure admin authentication
+- View all medical submissions with filters
+- Comprehensive statistics dashboard
+- Review submissions (Approve/Reject/Hold)
+- Add review notes for each decision
