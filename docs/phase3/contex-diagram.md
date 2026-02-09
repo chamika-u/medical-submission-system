@@ -10,6 +10,8 @@ Medical Officer ---->|   (Sabaragamuwa Univ)    |-----> Statistics Reports
                      +---------------------------+
 ```
 
+
+
 ## Level-0 Data Flow Diagram (DFD)
 ```
                  +---------------------+
@@ -51,11 +53,10 @@ Stats Request -->| 4.0                 |---> Statistics Report
                  | Generate Statistics |
                  |                     |
                  +---------------------+
+```
 
 
-### Explanation:
-- The context diagram illustrates the high-level interactions between the main actors (Students and Medical Officers) and the Medical Submission Management System. Students can submit medical certificates, while medical officers can review submissions and generate statistics.
-- The Level-0 DFD breaks down the system into its main processes: User Authentication, Submitting Medical Certificates, Reviewing Submissions, and Generating Statistics. It also shows the data stores (Users and Medical_Submissions) that hold user information and submission records. Each process interacts with the relevant data stores to perform its function.
+
 
 
 
