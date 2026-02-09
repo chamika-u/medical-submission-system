@@ -43,3 +43,8 @@ The current medical certificate submission and management process at Sabaragamuw
 - Technology: Web-based system using Node.js 
 - Budget: No additional software licensing costs
 - Infrastructure: Must run on standard web server
+
+## Team Members
+- Chamika - System Design , Development & Project cordination
+- Lasindu - Requirements Analysis & Documentation
+- Sakun - Testing & Documentatio
