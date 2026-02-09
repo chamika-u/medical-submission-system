@@ -29,3 +29,9 @@
 - FR4.2: System shall show count by status (pending, approved, rejected, hold)
 - FR4.3: System shall show breakdown by medical type
 - FR4.4: Statistics shall update in real-time
+
+### FR5: Data Management
+- FR5.1: System shall store user information (students and medical officers)
+- FR5.2: System shall maintain complete submission history
+- FR5.3: System shall record reviewer information and review timestamp
+- FR5.4: System shall preserve all review notes
