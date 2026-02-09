@@ -21,3 +21,11 @@ The current medical certificate submission and management process at Sabaragamuw
 - Statistical reporting (total, pending, approved, rejected, on-hold)
 - Filter submissions by status and type
 - Secure authentication and role-based access control
+
+### Out of Scope:
+- File upload for scanned medical certificates
+- Email notifications
+- Mobile application
+- Integration with university's main student information system
+- Payment processing
+- Multi-language support
