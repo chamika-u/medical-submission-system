@@ -66,3 +66,17 @@
 - Database schema shall be well-documented
 - API endpoints shall be clearly defined
 - System shall use modular architecture
+
+## Use Cases
+
+### UC1: Student Login
+**Actor:** Student
+**Precondition:** Student has valid credentials
+**Main Flow:**
+1. Student navigates to login page
+2. System displays login form
+3. Student enters username and password
+4. Student clicks "Login"
+5. System validates credentials
+6. System generates JWT token
+7. System redirects to student dashboard
