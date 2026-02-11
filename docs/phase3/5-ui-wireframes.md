@@ -98,3 +98,42 @@
 |  [Submit]  [Cancel]                     |
 +------------------------------------------+
 ```
+## Review Submission Modal
+```
++------------------------------------------+
+|  Review Medical Submission          [X]  |
++------------------------------------------+
+|  Student: Chamika Udayakumara           |
+|  Student ID: S2021001                    |
+|  Medical Date: Feb 3, 2026               |
+|  Type: Examination                       |
+|  Reason: Fever and headache              |
+|  Details: Unable to attend mid-term...   |
+|  Submitted: Feb 5, 2026                  |
++------------------------------------------+
+|  Decision: *                             |
+|  [Approve ▼]                            |
+|                                          |
+|  Notes:                                  |
+|  [____________________________]         |
+|  [____________________________]         |
+|                                          |
+|  [Submit Review]  [Cancel]              |
++------------------------------------------+
+```
+
+## Color Scheme
+- Primary: Purple gradient (#667eea to #764ba2)
+- Background: Light gray (#f5f5f5)
+- Cards: White with shadow
+- Status badges:
+  - Pending: Yellow (#ffc107)
+  - Approved: Green (#28a745)
+  - Rejected: Red (#dc3545)
+  - Hold: Blue (#17a2b8)
+
+## Responsive Design
+- Mobile-first approach
+- Breakpoint at 768px for tablet/desktop
+- Stack elements vertically on mobile
+- Grid layout for statistics cards
