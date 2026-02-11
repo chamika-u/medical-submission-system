@@ -60,7 +60,7 @@
 +------------------------------------------+
 |  Medical Submissions                     |
 |  +-------------------------------------+ |
-|  | Chamika Udayakumara (S2021001)      | |
+|  | Chamika Udayanga (S2021001)      | |
 |  | Examination - Feb 5, 2026  [PENDING]| |
 |  | Medical Date: Feb 3, 2026           | |
 |  | Reason: Fever and headache          | |
@@ -103,7 +103,7 @@
 +------------------------------------------+
 |  Review Medical Submission          [X]  |
 +------------------------------------------+
-|  Student: Chamika Udayakumara           |
+|  Student: Chamika Udayanga              |
 |  Student ID: S2021001                    |
 |  Medical Date: Feb 3, 2026               |
 |  Type: Examination                       |
