@@ -85,7 +85,7 @@ Stats Request -->| 4.0                 |---> Statistics Report
 ## Authentication Flow
 ```
 ┌─────────┐     Login      ┌──────────┐     Validate     ┌────────┐
-│  Login  │ ─────────────> │   App    │ ──────────────> │ Success│
+│  Login  │ ─────────────> │   App    │ ──────────────>  │ Success│
 │  Page   │                │  Logic   │                  │        │
 └─────────┘                └──────────┘                  └────────┘
                                  │                             │
@@ -111,7 +111,7 @@ Stats Request -->| 4.0                 |---> Statistics Report
                                  ▲                           │
                                  │ Cancel                    │
                                  │                           ▼
-                                 └────────────────────  ┌────────┐
+                                 └────────────────────   ┌────────┐
                                                          │  Save  │
                                                          │  Data  │
                                                          └────────┘
