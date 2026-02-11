@@ -1333,56 +1333,6 @@ Bold:    700 (used sparingly for labels)
 
 ---
 
-## Testing Checklist
-
-### Functional Testing
-- [ ] Login with valid credentials (both roles)
-- [ ] Login with invalid credentials
-- [ ] Logout functionality
-- [ ] Submit new medical certificate
-- [ ] View submission list
-- [ ] Filter submissions by status
-- [ ] Filter submissions by type
-- [ ] Review submission (officer)
-- [ ] Approve submission
-- [ ] Reject submission
-- [ ] Put submission on hold
-- [ ] View review notes
-- [ ] Modal open/close behavior
-
-### UI Testing
-- [ ] All text is readable
-- [ ] Colors have sufficient contrast
-- [ ] Buttons have hover states
-- [ ] Inputs have focus states
-- [ ] Status badges display correctly
-- [ ] Empty states display
-- [ ] Loading states display
-- [ ] Error messages display
-
-### Responsive Testing
-- [ ] Mobile layout (< 768px)
-- [ ] Tablet layout (768px - 1024px)
-- [ ] Desktop layout (> 1024px)
-- [ ] Touch interactions work
-- [ ] Modals fit on small screens
-
-### Accessibility Testing
-- [ ] Keyboard navigation works
-- [ ] Screen reader announces content
-- [ ] Focus indicators visible
-- [ ] Form labels associated
-- [ ] ARIA attributes correct
-
-### Browser Testing
-- [ ] Chrome
-- [ ] Firefox
-- [ ] Safari
-- [ ] Edge
-- [ ] Mobile browsers
-
----
-
 ## Conclusion
 
 This wireframe document provides a comprehensive blueprint for the Medical Submission System UI. It covers:
